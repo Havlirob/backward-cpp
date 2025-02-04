@@ -25,7 +25,7 @@ compiler.
 
 #### Install backward.hpp
 
-Backward is a header only library. So installing Backward is easy, simply drop
+Backward is a header-only library. So installing Backward is easy, simply drop
 a copy of `backward.hpp` along with your other source files in your C++ project.
 You can also use a git submodule or really any other way that best fits your
 environment, as long as you can include `backward.hpp`.
@@ -169,7 +169,7 @@ your sources.
 
 ### Libraries to read the debug info
 
-Backward supports pretty printed stack traces on GNU/Linux, macOS and Windows,
+Backward supports pretty-printed stack traces on GNU/Linux, macOS and Windows,
 it will compile fine under other platforms but will not do anything. **Pull
 requests are welcome :)**
 
@@ -236,9 +236,9 @@ one at the beginning of this document.
 ## API
 
 If you don't want to limit yourself to the defaults offered by `backward.cpp`,
-and you want to take some random stack traces for whatever reason and pretty
-print them the way you love or you decide to send them all to your buddies over
-the Internet, you will appreciate the simplicity of Backward's API.
+and you want to take some random stack traces for whatever reason and 
+pretty-print them the way you love or you decide to send them all to your 
+buddies over the Internet, you will appreciate the simplicity of Backward's API.
 
 ### Stacktrace
 
@@ -343,7 +343,7 @@ class SnippetFactory { public:
 
 ### Printer
 
-A simpler way to pretty print a stack trace to the terminal. It will
+A simpler way to pretty-print a stack trace to the terminal. It will
 automatically resolve the traces for you:
 
 ```c++
